@@ -1,0 +1,128 @@
+/* define o estilo do corpo do HTML */
+body{
+    font-family: Arial, Helvetica, sans-serif; /* define a fonte do texto no body */
+    margin: 0; /* remove a margem do body */
+    padding: 0; /* remove o preenchimento do body */
+}
+
+header{
+    text-align: center; /* alinha o conteudo ao centro */
+    padding: 20px; /* adiciona 20px de preenchimento */
+    background-color: #141414; /* cor de fundo do header */
+    color: #ccc; /* definimos a cor do texto */
+}
+
+header h1{
+    font-size: 39px; /* Define o tamanho a fonte */
+    color: orange;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #141414;
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+p{
+    color: rgb(178, 177, 177);
+}
+
+p:hover{
+    color: #f8e5e5;
+}
+
+main{
+    background-color: #141414;
+}
+
+div.product{
+    text-align: center;
+    max-width: 300px; /* largura maxima*/
+    padding: 20px;
+    border: 1px solid #ccc; /*define a borda, tamanho da borda e a cor dela*/
+    border-radius: 10px; /*colocar cantos arredondados nas bordas*/
+    background-color: #141414;
+}
+
+/* para chamar um ID, e uso o #, jogo da velha/sustenido*/  
+#Produtos{
+    display: flex; /*define um layout flexivel*/
+    flex-wrap: wrap; /*os objetos devem quebrar as linhas*/
+    justify-content: center; /*os itens vao ficar no centro e no gap eu defino os espaçamentos*/
+    gap: 20px; /*define o espaçamento entre o itens*/
+    background-color: #141414;
+}
+
+img.product{
+    max-width: 300px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+button{
+    color: rgb(10, 9, 9);
+    background-color: orange;
+    border-radius: 6px;
+    width: 100px;
+}
+
+button:hover{
+    color:azure;
+}
+
+#Beneficios{
+    text-align: center;
+    padding: 20px;
+    background-color: orange;
+}
+
+li{
+    list-style: none;
+}
+
+h2.titulo2{
+    color:#000000;
+}
+
+.textoD{
+    margin-bottom: 5px;
+}
+
+#Depoimentos{
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0;
+}
+
+#Contato{
+    text-align: center;
+    background: #141414; 
+    color: #ccc;
+}
+
+form input, form textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+h2.titulo1{
+    color: #ffffff;
+}
+
+h2.titulo3{
+    color: #ffffff;
+}
